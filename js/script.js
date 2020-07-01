@@ -9,7 +9,10 @@ const $campoBusca = $('.busca');
             }).show().replace("$textoCampoBusca","<span>${$textoCampoBusca}</span>");
         } else {
             $('.cartao').show();
-            const $campoBusca1 = $('.busca');
+            
+         })
+         
+         /*   const $campoBusca1 = $('.busca');
         
             $campoBusca1.on('input', function () {
                 const $textoCampoBusca2 = $(this).val().trim();
@@ -23,8 +26,8 @@ const $campoBusca = $('.busca');
                 }
             })
           
-        }
-    })
+        }*/
+   
   
 // **************************
 
